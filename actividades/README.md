@@ -9,7 +9,7 @@ Cada actividad ocupa una carpeta propia con su enunciado en `README.md` y, si lo
 | Prefijo | Tipo | Entrega habitual |
 |---|---|---|
 | `F` | Actividad formativa | En clase o en el formato indicado; no calificada salvo aviso expreso |
-| `A` | Actividad individual evaluable | *Pull request* o Campus Virtual, según el contenido |
+| `A` | Actividad evaluable, individual o en grupo según el enunciado | *Pull request* o Campus Virtual, según el contenido |
 
 El código completo que figure en el enunciado lo usas sin modificaciones en el nombre de tu carpeta de entrega.
 
@@ -18,6 +18,7 @@ El código completo que figure en el enunciado lo usas sin modificaciones en el 
 | Código | Actividad | Tema | Fecha de entrega |
 |---|---|---:|---|
 | `A01` | [Del dato a la inteligencia](A01-del-dato-a-la-inteligencia/README.md) | 1 | Lunes 21 de septiembre de 2026, 12:15 |
+| `A02` | [Plan de investigación](A02-plan-de-investigacion/README.md) · en grupo | 2 | Lunes 12 de octubre de 2026, 12:15 |
 
 
 ## Cómo leer un enunciado
