@@ -47,10 +47,33 @@ El nombre de la actividad debe coincidir exactamente con el código de su enunci
 | Ruta | Permiso del estudiante |
 |---|---|
 | `entregas/apellidoNombre/**` | Sí, dentro de su propia carpeta |
+| `entregas/grupos/CODIGO/grupoN/**` | Solo el portavoz de ese grupo, en las actividades en grupo |
 | `entregas/otraPersona/**` | No |
+| `entregas/grupos/CODIGO/otroGrupo/**` | No |
 | Cualquier otra ruta del repositorio | No |
 
-Un *pull request* que contenga cambios fuera de la carpeta personal deberá corregirse antes de su revisión.
+En las actividades individuales, un *pull request* que contenga cambios fuera de la carpeta personal deberá corregirse antes de su revisión. En las actividades en grupo se aplica una regla más estricta, descrita en el apartado siguiente.
+
+## Actividades en grupo
+
+Las entregas en grupo se organizan en [`entregas/grupos/`](grupos/README.md), con una carpeta por actividad y, dentro, una por grupo:
+
+```text
+entregas/grupos/
+└── A02/
+    ├── grupo1/
+    └── grupo2/
+```
+
+Cuando un enunciado indique que la actividad es en grupo:
+
+- las carpetas de los grupos **las crea el profesor**, con los archivos de partida que indique el enunciado;
+- cada grupo trabaja **solo** dentro de su carpeta;
+- **solo el portavoz** abre el *pull request*, desde su propio *fork*;
+- el resto de miembros deja un comentario en ese *pull request* indicando que ha revisado la entrega y que está conforme;
+- ningún otro miembro abre un *pull request* para la misma actividad.
+
+> **Si el *pull request* de un grupo modifica, añade o elimina cualquier archivo fuera de la carpeta de ese grupo, la actividad no se evalúa para el grupo.**
 
 ## Contenido mínimo
 
